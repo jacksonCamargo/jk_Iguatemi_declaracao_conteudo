@@ -1,0 +1,88 @@
+<div class="block block--id--mall-footer-second-block block-mall-block-system">
+  
+      <h2>Endereço</h2>
+    
+      <p>Av. Pres. Juscelino Kubitschek, 2041 - Vila Olímpia, São Paulo - SP, 04543-011</p>
+
+<p><strong>Informações</strong></p>
+
+<p>11 3152-6800</p>
+<div>
+    <!-- Campos do formulário -->
+    <label for="campoConsulta">Consulta:</label>
+    <input name="consulta" id="campoConsulta" type="text">
+    
+    <!-- Botão de Consulta -->
+    <button type="submit">Consultar</button>
+  
+  </div></div>
+
+
+Campo de formulário  de cadastro
+<div class="block block--id--webform-block block-webform">
+  <h2>Termo de declaração de conteudo On-line</h2>
+  <span id="webform-submission-contato-page-variant-contato-panels-variant-0-form-ajax-content"></span>
+  <div id="webform-submission-contato-page-variant-contato-panels-variant-0-form-ajax" class="webform-ajax-form-wrapper" data-effect="fade" data-progress-type="throbber">
+    <form class="webform-submission-form webform-submission-add-form webform-submission-contato-form webform-submission-contato-add-form webform-submission-contato-page_variant-contato-panels_variant-0-form webform-submission-contato-page_variant-contato-panels_variant-0-add-form webform-submission-contato-page-variant-contato-panels-variant-0-add-form js-webform-details-toggle webform-details-toggle" autocomplete="off" data-drupal-selector="webform-submission-contato-page-variant-contato-panels-variant-0-add-form" action="/jkiguatemi/contato" method="post" id="webform-submission-contato-page-variant-contato-panels-variant-0-add-form" accept-charset="UTF-8" data-once="form-updated" data-drupal-form-fields="edit-id,edit-name,edit-email,edit-telefone,edit-assunto,edit-mensagem,edit-desejo-receber-newsletter,edit-actions-submit">
+      
+      <div style="display:none" class="js-form-item form-item js-form-type-select form-item-id js-form-item-id">
+        <label for="edit-id" class="js-form-required form-required">Selecione um Shopping</label>
+        <select class="form-control form-select required" data-webform-required-error="Por favor selecione um shopping" data-drupal-selector="edit-id" id="edit-id" name="id" required="required" aria-required="true">
+          <option value="" selected="selected">Escolha o shopping</option>
+          <option value="8">JK Iguatemi</option>
+        </select>
+      </div>
+      
+      <div class="js-form-item form-item js-form-type-textfield form-item-name js-form-item-name">
+        <label for="edit-name" class="js-form-required form-required">Nome Completo</label>
+        <input class="form-control form-text required" data-drupal-selector="edit-name" type="text" id="edit-name" name="name" value="" size="60" placeholder="Exemplo de sailva" required="required" aria-required="true">
+      </div>
+      
+      <div class="js-form-item form-item js-form-type-email form-item-email js-form-item-email">
+        <label for="edit-email" class="js-form-required form-required">E-mail</label>
+        <input class="form-control form-email required" data-webform-required-error="Campo E-mail é obrigatório" data-drupal-selector="edit-email" type="email" id="edit-email" name="email" value="" size="60" maxlength="254" placeholder="examplo@mail.com" required="required" aria-required="true">
+      </div>
+      
+      <div class="js-form-item form-item js-form-type-tel form-item-telefone js-form-item-telefone">
+        <label for="edit-telefone" class="js-form-required form-required">Telefone</label>
+        <input class="form-control form-tel required" data-webform-required-error="Campo Telefone é obrigatório" data-drupal-selector="edit-telefone" type="tel" id="edit-telefone" name="telefone" value="" size="30" maxlength="13" placeholder="00 00000-0000" required="required" aria-required="true">
+      </div>
+      
+      <div class="js-form-item form-item js-form-type-select form-item-assunto js-form-item-assunto">
+        <label for="edit-assunto" class="js-form-required form-required">Emprestimos/Serviços</label>
+        <select class="form-control form-select required" data-webform-required-error="Campo Assunto obrigatório." data-drupal-selector="edit-assunto" id="edit-assunto" name="assunto" required="required" aria-required="true">
+          <option value="" selected="selected">Nunhum</option>
+          <option value="Reclamações">Cadeira motorizada</option>
+    <option value="" selected="selected">Cadeira de Rodas</option>
+        </select>
+        <br><br>
+        <select class="form-control form-select required" data-webform-required-error="Campo Assunto obrigatório." data-drupal-selector="edit-assunto" id="edit-assunto" name="assunto" required="required" aria-required="true">
+          <option value="" selected="selected">Nenhum</option>
+          <option value="Elogios">celular</option>
+          <option value="Outros">Malas/Bolsas/Volumes</option>
+        </select>
+      </div>
+
+      <!-- comentarios -->
+      <div class="js-form-item form-item js-form-type-textarea form-item-mensagem js-form-item-mensagem">
+        <label for="edit-mensagem" class="js-form-required form-required">Declaração de conteúdo</label>
+        <div>
+          <textarea class="form-control form-textarea required" data-webform-required-error="Campo Mensagem é obrigatório." data-drupal-selector="edit-mensagem" id="edit-mensagem" name="mensagem" rows="5" cols="60" placeholder="Digite sua mensagem" required="required" aria-required="true"></textarea>
+        </div>
+      </div>
+      
+      <div class="js-form-item form-item js-form-type-checkbox form-item-desejo-receber-newsletter js-form-item-desejo-receber-newsletter">
+        <input data-drupal-selector="edit-desejo-receber-newsletter" type="checkbox" id="edit-desejo-receber-newsletter" name="desejo_receber_newsletter" value="1" class="form-checkbox">
+        <label for="edit-desejo-receber-newsletter" class="option">Desejo receber newsletter</label>
+      </div>
+
+      <details id="captcha" class="captcha js-form-wrapper form-wrapper" open="open" data-once="details">
+        <summary role="button" aria-controls="captcha" aria-expanded="true" aria-pressed="true">CAPTCHA<span class="summary"></span></summary>
+        This question is for testing whether or not you are a human visitor and to prevent automated spam submissions.
+        <input data-drupal-selector="edit-captcha-sid" type="hidden" name="captcha_sid" value="484323">
+        <input data-drupal-selector="edit-captcha-token" type="hidden" name="captcha_token" value="Jy_No78ElLyBWaVXTJ3Pysm1Rn3DXdLd8pj7VbaVS2g">
+        <input data-drupal-selector="edit-captcha-response" type="hidden" name="captcha_response" value="Google no captcha">
+        </details>
+        <div class="btn-submit-form form-actions webform-actions js-form-wrapper form-wrapper" data-drupal-selector="edit-actions" id="edit-actions"><input class="webform-button--submit btn-submit-contact button button--primary js-form-submit form-submit" data-drupal-selector="edit-actions-submit" data-disable-refocus="true" type="submit" id="edit-actions-submit" name="op" value="Enviar" data-once="drupal-ajax">
+
+</div></form></div></div>
