@@ -1,0 +1,14 @@
+enunciado / escopo principal:
+     -  negocios idealizaram um nova feature, com as seguintes funcionalizades.  html css e js : 
+      um tela crud: sem a funcao editar.
+      eu um formulario que renderiza  os seguintes
+      campos: nome , email,  endereço, celular / tel, data, horario_de_entrega , numero do lacre.
+       botao para adicionar e salvar os dados em localstorage.
+     -  apos o salvamento limpe os campos . 
+     -  crie   botao para abri um modal com os dados  cadastrados no localstorage.
+
+        impeditivo:
+             - o modal nao esta guardando os dados cadastrados em localstorage;
+             -  os campos de dados nao estao sendo limpos apos o salvamento. 
+        
+

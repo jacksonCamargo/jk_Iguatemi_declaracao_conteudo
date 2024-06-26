@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRUD Example</title>
+  <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Declaracao de Conteudo online</h1>
+    <form id="crud-form">
+      <label for="name">Nome:</label>
+      <input type="text" id="name" required><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" required><br>
+      <label for="address">Endereço:</label>
+      <input type="text" id="address" required><br>
+      <label for="phone">Celular/Tel:</label>
+      <input type="tel" id="phone" required><br>
+      <label for="date">Data:</label>
+      <input type="date" id="date" required><br>
+      <label for="time">Horário de Entrega:</label>
+      <input type="time" id="time" required><br>
+      <label for="seal">Número do Lacre:</label>
+      <input type="text" id="seal" required><br>
+      <button type="submit">Salvar</button>
+    </form>
+    <!-- <button id="print-btn">Imprimir</button> -->
+    <button id="modal-btn">Abrir Modal</button>
+  </div>
+    <div class="logo_faixada_jk" width="100%" heigth="20rem">
+      <img src="/assets/_faixada jk.jfif" alt="faixada">
+      <!-- <img src="/assets/_logo_jk_iguatemi.jfif" alt=""> -->
+    </div>
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div id="modal-data"></div>
+    </div>
+  </div>
+
+  <script src="script1.js"></script>
+</body>
+</html>
