@@ -79,3 +79,17 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+//  date time 
+function updateDateTime() {
+  const dateTimeElement = document.getElementById('dateTime');
+  const now = new Date();
+  const formattedDate = now.toLocaleDateString();
+  const formattedTime = now.toLocaleTimeString();
+  dateTimeElement.textContent = `Data: ${formattedDate} Hora: ${formattedTime}`;
+}
+
+// Atualiza a data e a hora a cada segundo
+setInterval(updateDateTime, 1000);
+
+// Inicializa a data e a hora na primeira carga
+updateDateTime();
