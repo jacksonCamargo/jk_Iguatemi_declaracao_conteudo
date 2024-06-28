@@ -162,7 +162,7 @@ div.logo_faixada_jk{
 }
 /* date time */
 .marquee {
-  /* overflow: hidden; */
+  overflow: hidden;
   white-space: nowrap;
   box-sizing: border-box;
   margin-top:20px;
