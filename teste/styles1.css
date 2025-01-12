@@ -141,25 +141,25 @@ button[type="button"]:hover {
   text-decoration: none;
 }
 
-div.logo_faixada_jk {
+/* div.logo_faixada_jk {
   width: 25rem;
   height: 42rem;
   background-color: #1111;
   display: flex;
   margin-top: -45rem;
   border-radius: 5px;
-}
+} */
 
-.logo {
+/* .logo {
   display: inline-block;
   width: 35;
   height: 30rem;
   position: relative;
   margin-top: 5rem;
-}
+} */
 
 .rodape {
-  background-color: #bbb;
+  background-color: #ffffff;
   padding: 10px;
   width: 5;
 }
