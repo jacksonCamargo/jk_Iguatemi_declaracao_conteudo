@@ -140,46 +140,52 @@ button[type="button"]:hover {
   color: #333;
   text-decoration: none;
 }
-div.logo_faixada_jk{
-  width: 205rem;
+
+div.logo_faixada_jk {
+  width: 25rem;
   height: 42rem;
   background-color: #1111;
   display: flex;
   margin-top: -45rem;
-  border-radius: 5px;  
+  border-radius: 5px;
 }
-.logo{
+
+.logo {
   display: inline-block;
   width: 35;
   height: 30rem;
   position: relative;
   margin-top: 5rem;
 }
-.rodape{
-  background-color: #ffff;
+
+.rodape {
+  background-color: #bbb;
   padding: 10px;
   width: 5;
 }
+
 /* date time */
 .marquee {
-  overflow: hidden;
-  white-space: nowrap;
+  /* overflow: hidden; */
+  /* white-space: nowrap; */
   box-sizing: border-box;
-  margin-top:20px;
+  margin-top: 20px;
+  background-color: #000001;
+  color: #ffffff;
 }
 
 .marquee span {
   display: inline-block;
-  padding-left: 100%;
-  padding: 1rem;
-  animation: marquee 10s linear infinite;
+  padding: 2rem;
+  animation: marquee 10s infinite;
 }
 
 @keyframes marquee {
   from {
-      transform: translateX(100%);
+    transform: translateX(100%);
   }
+
   to {
-      transform: translateX(-100%);
+    transform: translateX(-100%);
   }
 }
