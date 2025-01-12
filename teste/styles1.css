@@ -141,14 +141,14 @@ button[type="button"]:hover {
   text-decoration: none;
 }
 
-/* div.logo_faixada_jk {
+div.logo_faixada_jk {
   width: 25rem;
-  height: 42rem;
-  background-color: #1111;
+  height: 10rem;
+  background-color: #2222;
   display: flex;
-  margin-top: -45rem;
+  /* margin-top: -2rem; */
   border-radius: 5px;
-} */
+}
 
 /* .logo {
   display: inline-block;
